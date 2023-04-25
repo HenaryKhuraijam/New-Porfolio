@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Crete Round';
+  font-size: 50px;
+  color: hsl(25, 100%, 50%);
+
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  font-family:  'Poppins', sans-serif;
+  color: hsl(40, 100%, 94%);
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+.logo-part {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  padding: 1.3em;
+  background-color: hsl(20, 3%, 23%);
+  width: 95%;
+}
+
+.logo-part :nth-child(1) {
+  color: #ffffff;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 11.7em 1.5em;
+  background-color:  hsl(20, 6%, 10%);
+  justify-content: center;
+}
+
+.introduce-p {
+  font-size: 24px;
+ 
+}
+
+.social-media {
+  display: flex;
+  gap: 12px;
+}
+
+.social-media li img {
+  height: 20px;
+  width: 20px;
+}
+
+.recent-work {
+  padding: 118px 24px;
+  text-align: center;
+  font-size: 24px;
+}
+.works {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+.recent-project {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  
+}
+
+.recent-project p {
+  color: hsl(20, 6%, 10%)
+}
+
+.project1-img {
+  display: flex;
+  justify-content: center;
+}
+
+.coding-language {
+  display: flex;
+  gap: 12px; 
+}
+
+.re-codelanguage li {
+  border: 0.5px solid hsl(218, 13%, 59%);
+}
+
+.coding-language li {
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.24);;
+}
+
+.btn {
+  padding: 12px;
+  width: fit-content;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 100%, 50%);
+}
+
+.done-project {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.works-projects {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 13px;
+  padding-top: 70px;
+}
+.btn-works {
+  width: 100%;
+}
+
+.about {
+  color: #ffffff;
+  background-color: hsl(20, 6%, 10%);
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  gap: 24px;
+}
+
+.about-page h2 {
+  font-size: 72px;
+  font-family: 'Crete Round';
+  color: hsl(25, 100%, 50%);
+}
+
+.about ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px;
+}
+
+.about h3 {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 23px;
+}
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 45px;
+  margin-bottom: 78px;
+}
+
+.intpt {
+ height: 48px;
+}
+
+.message {
+  height: 114px;
+  background-color: hsl(15, 33%, 98%);
+
+}
+
+footer h3 {
+  text-align: center;
+}
+
+.fotr-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
